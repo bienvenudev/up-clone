@@ -18,10 +18,12 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
+    <!-- icons in the footer provided by https://www.flaticon.com-->
     <main>
-      <!-- Navbar Mobile -->
+      <!-- Navbars -->
       <div class="sticky top-0 z-20">
-        <div class="p-5 bg-primary-100 md:hidden">
+        <!-- Navbar Mobile -->
+        <div class="p-5 bg-primary-100 lg:hidden">
           <div class="flex items-center justify-between">
             <div class="flex items-center gap-3">
               <a href="#">
@@ -39,15 +41,78 @@
 
         <!-- Navbar Desktop -->
         <div>
-          <div class="sticky z-10 hidden w-full bg-primary-100 py-7 md:block">
+          <div class="sticky z-10 hidden w-full bg-primary-100 py-7 lg:block">
             <div class="flex items-center justify-between px-6">
               <div class="flex items-center gap-3">
                 <a href="#">
                   <img class="h-12" src="assets/up-full-logo.svg" alt=""
                 /></a>
               </div>
-              <div>
-                <input type="text" placeholder="Search" />
+
+              <div class="flex">
+                <ul class="flex">
+                  <li class="mx-[.7em]">
+                    <a
+                      class="font-black text-primary-300 text-[1.1em] px-1 uppercase"
+                      href="#"
+                      >Study</a
+                    >
+                  </li>
+                  <li class="mx-[.7em]">
+                    <a
+                      class="font-black text-primary-300 text-[1.1em] px-1 uppercase"
+                      href="#"
+                      >Research</a
+                    >
+                  </li>
+                  <li class="mx-[.7em]">
+                    <a
+                      class="font-black text-primary-300 text-[1.1em] px-1 uppercase"
+                      href="#"
+                      >Innovate</a
+                    >
+                  </li>
+                  <li class="mx-[.7em]">
+                    <a
+                      class="font-black text-primary-300 text-[1.1em] px-1 uppercase"
+                      href="#"
+                      >Live</a
+                    >
+                  </li>
+                  <li class="mx-[.7em]">
+                    <a
+                      class="font-black text-primary-300 text-[1.1em] px-1 uppercase"
+                      href="#"
+                      >Explore</a
+                    >
+                  </li>
+                </ul>
+                <div class="relative ml-3 max-w-32">
+                  <input
+                    class="bg-transparent border-black border-b-[1px] placeholder:text-black max-w-full"
+                    type="text"
+                    placeholder="Search"
+                  />
+                  <svg
+                    class="absolute bottom-0 right-0 h-full cursor-pointer"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    style="margin-top: -1.2em"
+                  >
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: none;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="cls-1" width="512" height="512"></rect>
+                    <path
+                      d="M445.56,422.93l-85.05-85.05c53.72-65.14,50.14-162-10.77-222.89C285,50.26,179.71,50.26,115,115s-64.73,170,0,234.75c60.9,60.91,157.75,64.49,222.89,10.77l85.05,85.05ZM137.61,327.12c-52.24-52.25-52.24-137.26,0-189.51s137.26-52.24,189.51,0,52.24,137.26,0,189.51S189.86,379.36,137.61,327.12Z"
+                      transform="translate(0.5 1)"
+                    ></path>
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
@@ -59,7 +124,7 @@
         <div>
           <div class="relative">
             <img
-              class="h-[350px] object-cover object-center w-full"
+              class="h-[350px] object-cover object-center w-full lg:h-[650px]"
               src="assets/investigacao-icbas-2024_01.jpeg.jpg"
               alt=""
             />
@@ -380,6 +445,7 @@
             </div>
           </div>
 
+          <!-- Divider -->
           <div class="w-full h-[1px] bg-white my-8"></div>
 
           <div class="space-y-9">
@@ -454,6 +520,145 @@
           </div>
         </div>
       </div>
+
+      <!-- Footer Section -->
+      <footer class="py-12 text-sm font-light text-white bg-primary-300">
+        <div class="px-4">
+          <div>
+            <div>
+              <!-- Media start with flex -->
+              <div class="">
+                <div
+                  class="text-[1rem] text-secondary-100 mb-[.8rem] font-semibold"
+                >
+                  Media
+                </div>
+                <div>
+                  <div class="mb-[.4em]">
+                    <a href="#">U.Porto News</a>
+                  </div>
+                  <div class="mb-[.4em]">
+                    <a href="#">Brochures and Presentations</a>
+                  </div>
+                </div>
+                <div>
+                  <div class="mb-[.4em]">
+                    <a href="#">U.Porto Agenda</a>
+                  </div>
+                </div>
+                <div>
+                  <div class="mb-[.4em]">
+                    <a href="#">Media Contacts</a>
+                  </div>
+                </div>
+                <div>
+                  <div class="mb-[3rem]">
+                    <a href="#">Image Manual</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Portals -->
+              <div class="">
+                <div
+                  class="text-[1rem] text-secondary-100 mb-[.8rem] font-semibold"
+                >
+                  U.Porto Portals
+                </div>
+                <div>
+                  <div class="mb-[.4em]">
+                    <a href="#">Social Support Services (SASUP)</a>
+                  </div>
+                  <div class="mb-[.4em]">
+                    <a href="#">Educational Innovation</a>
+                  </div>
+                  <div class="mb-[.4em]"><a href="#">U.Porto PRESS</a></div>
+                  <div class="mb-[.4em]"><a href="#">AcademiaUP</a></div>
+                </div>
+                <div>
+                  <div class="mb-[.4em]">
+                    <a href="#"> CDUP - U.Porto Sports Centre</a>
+                  </div>
+                  <div class="mb-[.4em]">
+                    <a href="#">Research and Projects Office</a>
+                  </div>
+                  <div class="mb-[.4em]"><a href="#">Peer Mentoring</a></div>
+                  <div class="mb-[.4em]"><a href="#">Complaints Portal</a></div>
+                </div>
+                <div>
+                  <div class="mb-[.4em]"><a href="#">Alumni Portal</a></div>
+                  <div class="mb-[.4em]">
+                    <a href="#">U.Porto Innovation</a>
+                  </div>
+                  <div class="mb-[.4em]">
+                    <a href="#">Volunteering at U.Porto</a>
+                  </div>
+                  <div class="mb-[.4em]"><a href="#">Funded Projects</a></div>
+                </div>
+                <div>
+                  <div class="mb-[.4em]"><a href="#">UPdigital Portal</a></div>
+                  <div class="mb-[.4em]"><a href="#">Talent and Career</a></div>
+                  <div class="mb-[.4em]">
+                    <a href="#">Volunteering at U.Porto</a>
+                  </div>
+                  <div class="mb-[3rem]"><a href="#">Funded Projects</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div class="w-full h-[1px] bg-white my-10"></div>
+
+          <!-- Socials and Contacts -->
+          <div>
+            <div class="flex gap-7">
+              <a href="#">
+                <img
+                  class="h-7 invert"
+                  src="assets/newspaper-folded.png"
+                  alt=""
+              /></a>
+              <a href="#">
+                <img class="h-7 invert" src="assets/youtube.png" alt=""
+              /></a>
+              <a href="#">
+                <img class="h-7 invert" src="assets/linkedin.png" alt=""
+              /></a>
+              <a href="#">
+                <img class="h-7 invert" src="assets/twitter.png" alt=""
+              /></a>
+              <a href="#">
+                <img class="h-7 invert" src="assets/facebook-logo.png" alt=""
+              /></a>
+            </div>
+            <div>
+              <h3 class="font-semibold text-[1em] mb-[.4em] mt-[2em]">
+                Contacts
+              </h3>
+              <p class="mb-[.4em]">Reitoria da Universidade do Porto</p>
+              <p class="mb-[.4em]">
+                Praça Gomes Teixeira
+                <br />
+                4099-002 Porto, Portugal
+              </p>
+              <p class="mb-[2.5em]">
+                Tel.: (+351) 220 408 000
+                <br />
+                E-mail: up@up.pt
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-[.4em]">
+            <span class="text-[1em] font-semibold"
+              >University Of Porto 2025</span
+            >
+            <span class="block">Personal Data Protection</span>
+            <span class="block">Privacy Policy</span>
+            <span>Accessibility</span>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
