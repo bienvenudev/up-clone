@@ -45,7 +45,7 @@
             <div class="flex items-center justify-between px-6 wrapper">
               <div class="flex items-center gap-3">
                 <a href="#">
-                  <img class="h-12" src="assets/up-full-logo.svg" alt=""
+                  <img class="h-8" src="assets/up-full-logo.svg" alt=""
                 /></a>
               </div>
 
@@ -170,7 +170,7 @@
       </div>
 
       <!-- Study Section -->
-      <div>
+      <div class="mb-20">
         <div class="wrapper">
           <div class="items-end mx-3 mt-20 xl:flex">
             <div class="flex-1">
@@ -189,9 +189,12 @@
         </div>
       </div>
 
+      <!-- Divider -->
+      <div class="w-full h-[1px] bg-primary-400 wrapper"></div>
+
       <!-- All Courses Section -->
       <div class="wrapper">
-        <div class="gap-4 mt-20 xl:flex xl:mb-6">
+        <div class="gap-4 my-20 xl:flex">
           <div class="px-2 flex-[3]">
             <div class="flex flex-col gap-4">
               <p
@@ -224,7 +227,7 @@
             </div>
           </div>
           <!-- Courses from A to Z -->
-          <div class="flex-1">
+          <div class="flex-[1.8] px-2">
             <div class="text-[23px] text-black mt-16 mb-8">
               <h3 class="text-2xl text-primary-200">Courses from A to Z:</h3>
               <a class="underline block leading-[1.1] mt-2" href="#">
@@ -238,7 +241,7 @@
       </div>
 
       <!-- News Section -->
-      <div class="pb-8 bg-primary-400 pt-14">
+      <div class="py-16 bg-primary-400">
         <div class="wrapper">
           <div>
             <div class="justify-between md:flex md:items-baseline">
@@ -320,7 +323,7 @@
           <div>
             <div class="flex gap-2 mt-10 ml-5">
               <img
-                class="h-10 bg-secondary-100"
+                class="h-10 bg-[#999]"
                 src="assets/ChevronLeftLittle.svg"
                 alt=""
               />
@@ -333,17 +336,21 @@
           </div>
         </div>
       </div>
-      
+
       <!-- Competitive Advantage -->
       <div>
-        <div class="pt-10 pb-14">
-          <div class="px-5">
-            <h2
-              class="text-[2.5em] text-secondary-100 leading-[1.1em] font-light mb-10"
+        <div class="pt-10 pb-14 xl:py-24">
+          <div class="px-5 xl:grid xl:grid-cols-5 wrapper">
+            <div
+              class="xl:bg-[url(./assets/minerva_01.png)] xl:col-span-2 xl:bg-no-repeat xl:bg-[length:41%] xl:bg-[position:100%_0] xl:min-h-96"
             >
-              We are a University of Excellence!
-            </h2>
-            <div class="space-y-8">
+              <h2
+                class="text-[2.5rem] text-secondary-100 leading-[1.1em] font-light mb-10 xl:text-[3.2rem] xl:pr-8"
+              >
+                We are a University of Excellence!
+              </h2>
+            </div>
+            <div class="space-y-8 text-xl xl:col-span-3 xl:ml-12">
               <p>
                 With over 100 years of history, the University of Porto is a
                 <span
@@ -373,42 +380,56 @@
         </div>
       </div>
 
+      <!-- Divider -->
+      <div class="w-full h-[4px] bg-[#e5e7eb] my-8"></div>
+
       <!-- Research Section -->
       <div>
-        <div class="px-5 pt-12 mb-12 border-t-4">
-          <h3
-            class="text-[2.5em] text-secondary-100 leading-[1.1em] font-light mb-7"
-          >
-            Research
-          </h3>
-          <p class="text-primary-300 text-[1.8em] font-semibold mb-7">
-            Research University
-          </p>
-          <p class="text-[1.2em] mb-3">
-            With <span class="text-secondary-100">48 research units</span> and a
-            highly qualified scientific community, the University of Porto is
-            one of the largest producers of science in Portugal, contributing to
-            almost
-            <span class="text-secondary-100">
-              25% of all national scientific output.
-            </span>
-          </p>
+        <div class="px-5 py-12 mb-12">
+          <div class="wrapper">
+            <h3
+              class="text-[2.5rem] text-secondary-100 leading-[1.1em] font-light mb-7 xl:text-[3.2rem]"
+            >
+              Research
+            </h3>
 
-          <p class="text-[1.2em] mb-3">
-            The excellence of our scientific ecosystem is particularly evident
-            in the<span class="text-secondary-100">
-              leading position the University occupies in the main international
-              rankings of Higher Education.
-            </span>
-          </p>
-
-          <img src="assets/investigar-home_destaque.format-jpeg.jpg" alt="" />
+            <div class="xl:flex xl:items-center xl:gap-6">
+              <div>
+                <p class="text-primary-300 text-[1.8em] font-semibold mb-7">
+                  Research University
+                </p>
+                <p class="text-[1.2em] mb-3 text-primary-200 font-light">
+                  With
+                  <span class="text-secondary-100">48 research units</span> and
+                  a highly qualified scientific community, the University of
+                  Porto is one of the largest producers of science in Portugal,
+                  contributing to almost
+                  <span class="text-secondary-100">
+                    25% of all national scientific output.
+                  </span>
+                </p>
+                <p class="text-[1.2em] mb-3 text-primary-200 font-light">
+                  The excellence of our scientific ecosystem is particularly
+                  evident in the<span class="text-secondary-100">
+                    leading position the University occupies in the main
+                    international rankings of Higher Education.
+                  </span>
+                </p>
+              </div>
+              <div>
+                <img
+                  src="assets/investigar-home_destaque.format-jpeg.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Figures Section -->
       <div class="text-white bg-secondary-100">
-        <div class="px-4 pt-16 pb-[5.5em] text-center">
+        <div class="px-4 pt-16 pb-[5.5em] text-center wrapper">
           <div>
             <div class="relative mb-8">
               <img
@@ -453,7 +474,7 @@
           <!-- Divider -->
           <div class="w-full h-[1px] bg-white my-8"></div>
 
-          <div class="space-y-9">
+          <div class="grid gap-10 lg:grid-cols-3">
             <div>
               <p class="text-[2.4em] font-black leading-[1.2em]">+300</p>
               <p class="text-[1.8em] font-light leading-[1.2em]">Courses</p>
@@ -475,16 +496,16 @@
       </div>
 
       <!-- FAQ Section -->
-      <div>
-        <div class="pt-12">
-          <div class="px-4">
+      <div class="bg-primary-400">
+        <div class="py-24 pt-12 lg:pt-24">
+          <div class="px-4 wrapper">
             <h2
-              class="text-[2.5em] text-secondary-100 font-light leading-[1.1em] mb-[.65em]"
+              class="text-[2.5em] text-secondary-100 font-light leading-[1.1em] mb-[.65em] xl:text-[3.2rem]"
             >
               Frequently asked questions
             </h2>
             <select
-              class="border-2 border-primary-300 text-[1.2em] p-3 mb-4 w-full"
+              class="border-2 border-primary-300 text-[1.2em] p-3 mb-4 w-full lg:hidden"
               name="type"
               id="type-students"
             >
@@ -494,19 +515,32 @@
               <option value="U.Porto">Professionals</option>
               <option value="U.Porto">Alumni</option>
             </select>
-            <div>
-              <img
-                src="assets/gateway-estudantes-uporto.format-jpeg.jpg"
-                alt=""
-              />
+            <div class="hidden lg:block">
+              <ul
+                class="flex gap-8 text-[#999] text-[1.1rem] font-semibold mb-[2.5rem] border-b-2 border-[#ccc]"
+              >
+                <li class="mb-[.7rem] text-primary-300">U.Porto Students</li>
+                <li class="mb-[.7rem]">International Students</li>
+                <li class="mb-[.7rem]">Prospective Students</li>
+                <li class="mb-[.7rem]">Professionals</li>
+                <li class="mb-[.7rem]">Alumni</li>
+              </ul>
+            </div>
+            <div class="sm:flex sm:flex-row-reverse sm:gap-8">
+              <div>
+                <img
+                  src="assets/gateway-estudantes-uporto.format-jpeg.jpg"
+                  alt=""
+                />
+              </div>
               <div class="pt-8">
                 <h2
-                  class="mb-[.8rem] font-semibold text-2xl leading-[1.1rem] text-primary-300"
+                  class="mb-[1.2rem] font-semibold text-2xl leading-[1.1rem] text-primary-300 lg:mb-[1.6rem] lg:text-[2rem]"
                 >
                   U.Porto Students
                 </h2>
                 <p
-                  class="text-primary-300 mb-[.9rem] leading-[1.2rem] font-semibold"
+                  class="text-primary-300 mb-[.9rem] leading-[1.2rem] font-light lg:text-[1.2em] lg:leading-[1.4rem] lg:mb-[2rem]"
                 >
                   You have just entered in U.Porto and you feel "lost"? Do you
                   want to do a mobility period abroad and you don't know how?
@@ -520,6 +554,22 @@
                   See More
                   <img class="h-6 mt-1" src="assets/pointer-right.svg" alt="" />
                 </a>
+                <!--  -->
+
+                <div class="flex gap-2">
+                  <img
+                    class="h-10 bg-[#999]"
+                    src="assets/ChevronLeftLittle.svg"
+                    alt=""
+                  />
+
+                  <img
+                    class="h-10 bg-secondary-100"
+                    src="assets/ChevronRightLittle.svg"
+                    alt=""
+                  />
+                </div>
+                <!--  -->
               </div>
             </div>
           </div>
